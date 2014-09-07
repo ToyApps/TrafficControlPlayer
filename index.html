@@ -61,6 +61,11 @@
 		-->
 		</script>
 		<style type="text/css">
+		html, body {margin:0; padding:0; height:100%}
+         #container {width: 100%; min-height: 550px; position: relative;}
+         #smallContainer {position:relative} /*no height specified*/
+         #iframeContainer {height: 100%; position: relative}
+         #iframe {height: 100%; width: 100%; display: block}
 		<!--
 		body {
 			font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -131,6 +136,13 @@
 				</div>
 			</div>
 		</div>
-		<p class="footer">&laquo; created with <a href="http://unity3d.com/unity/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+		</br>
+		<div id="container">
+			<div id="smallContainer">
+				<div id="iframeContainer">
+					<iframe id="iframe" src="http://assetgallery.tumblr.com/"></iframe>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
